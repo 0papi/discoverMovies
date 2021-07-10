@@ -12,7 +12,7 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?sort_by=now-playin
 
 const IMG_API = 'https://image.tmdb.org/t/p/w1280'
 
-const MOVIE_LINK = 'https://www.themoviedb.org/search?query="'
+const MOVIE_LINK = 'https://www.themoviedb.org/'
 
 
 
@@ -42,7 +42,7 @@ function showMovies(movies) {
         </div>
         <div class="bottom">
           <pclass="overview">${overview}</p>
-          <a href="${MOVIE_LINK} + ${title}" class="btn">Check Out Movie</a>
+          <a href="${MOVIE_LINK}" target = "_blank "class="btn">Check Out Movie</a>
         </div>
       </div>
     `
